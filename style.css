@@ -14,8 +14,8 @@ h3 {
 }
 
 body {
-    background-color: white;
-    /* background-color: red; */
+   
+    background-color: red
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,14 +29,14 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: greenyellow; */
+    background-color: greenyellow; 
 }
 
 nav {
     flex: 1;
     width: var(--page-width);
     display: flex;
-    /* background-color: green; */
+    background-color: green; 
     align-items: center;
     justify-content: space-between;
     padding-inline: calc((100vw - var(--page-width)) / 2);
@@ -61,7 +61,7 @@ main {
     box-sizing: border-box;
     height: calc(100vh - var(--header-size));
     width: var(--page-width);
-    /* background-color: violet; */
+    background-color: violet; 
     display: flex;
     padding-top: 30px;
 }
